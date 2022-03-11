@@ -2,13 +2,13 @@
 stages:
   - build
   
-  beforeScript:
+beforeScript:
   - |
     export PATH=$PWD/node_modules/.bin:/root/.cli:$PATH
     echo $PATH
     tnpm -v
     
- build:
+build:
   stage: build
   aciTags: DOCKER
   agent:
