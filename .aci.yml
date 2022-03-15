@@ -1,33 +1,33 @@
 
-stages:
-  - build
-  
-beforeScript:
-  - |
-    export PATH=$PWD/node_modules/.bin:/root/.cli:$PATH
-    echo $PATH
-    tnpm -v
-    
-build:
-  stage: build
-  aciTags: DOCKER
-  agent:
-    docker:
-      image: reg.docker.alibaba-inc.com/odc-front/odc-e2e:v3
-      resourceRequirements:
-        cpu: 4
-        memory: 12
-        ephemeral-storage: 30
-  script:
-    - |
-      export PATH=$PWD/node_modules/.bin:/root/.cli:$PATH
-      node -e "console.log('%j, %j', process.versions, process.execPath)"
-      tnpm i @alipay/ob-yuque2book-front -g
-      ob-md2book -p ./ -n odc -o ./
-  publisher:
-    archiveArtifacts:
-      artifacts: 'output/'
-      allowEmptyArchive: true
-    html:
-      index: output/zh-CN/index.html
-      displayName: 中文文档
+#stages:
+#  - build
+#  
+#beforeScript:
+#  - |
+#    export PATH=$PWD/node_modules/.bin:/root/.cli:$PATH
+#    echo $PATH
+#    tnpm -v
+#    
+#build:
+#  stage: build
+#  aciTags: DOCKER
+#  agent:
+#    docker:
+#      image: reg.docker.alibaba-inc.com/odc-front/odc-e2e:v3
+#      resourceRequirements:
+#        cpu: 4
+#        memory: 12
+#        ephemeral-storage: 30
+#  script:
+#    - |
+#      export PATH=$PWD/node_modules/.bin:/root/.cli:$PATH
+#      node -e "console.log('%j, %j', process.versions, process.execPath)"
+#      tnpm i @alipay/ob-yuque2book-front -g
+#      ob-md2book -p ./ -n odc -o ./
+#  publisher:
+#    archiveArtifacts:
+#      artifacts: 'output/'
+#      allowEmptyArchive: true
+#    html:
+#      index: output/zh-CN/index.html
+#      displayName: 中文文档
