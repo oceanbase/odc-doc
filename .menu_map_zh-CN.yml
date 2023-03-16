@@ -46,3 +46,9 @@
 10.system-integration=系统集成参考
 1.bastion-host-integration-guide=堡垒机集成参考
 2.oauth2-account-integration-guide=OAuth2 账号集成参考
+12.odc-rn=版本发布记录
+1.odc-rn-4.1=V4.1
+2.odc-rn-4.0=V4.0
+3.odc-rn-3.4=V3.4
+4.odc-rn-3.3=V3.3
+5.odc-rn-3.2=V3.2
