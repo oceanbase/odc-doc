@@ -41,8 +41,9 @@
 8.account-password-problem=账号密码问题
 4.faq=常见问题
 1400.rn=版本发布记录
-1.odc-rn-4.1=V4.1
-2.odc-rn-4.0=V4.0
-3.odc-rn-3.4=V3.4
-4.odc-rn-3.3=V3.3
-5.odc-rn-3.2=V3.2
+100.odc-rn-4.2=V4.2
+200.odc-rn-4.1=V4.1
+300.odc-rn-4.0=V4.0
+400.odc-rn-3.4=V3.4
+500.odc-rn-3.3=V3.3
+600.odc-rn-3.2=V3.2
