@@ -1,5 +1,4 @@
 200.odc-overview=产品简介
-600.odc-console=用户界面
 300.quickstart=快速入门
 1.client-odc-quickstart=桌面版 ODC
 2.web-odc-quickstart=Web 版 ODC
@@ -41,7 +40,7 @@
 7.front-page-exception=前端页面异常
 8.account-password-problem=账号密码问题
 4.faq=常见问题
-1400.odc-rn=版本发布记录
+1400.rn=版本发布记录
 1.odc-rn-4.1=V4.1
 2.odc-rn-4.0=V4.0
 3.odc-rn-3.4=V3.4
