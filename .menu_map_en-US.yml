@@ -1,4 +1,6 @@
 300.quickstart=Quick Start
+100.client-odc-quickstart=Client ODC
+200.web-odc-quickstart=Web ODC
 1100.deployment-guide=Deployment Guide
 300.deploy-a-single-odc-node=Deploy a single ODC node
 400.deploy-the-ha-odc=Deploy ODC in high availability mode
