@@ -5,7 +5,7 @@
 400.connection-management=Data Source Management
 300.database-operation-and-maintenance=Database O&M
 500.sql-development=SQL Development
-700.web-odc-database-objects=Database objects
+700.database-objects=Database objects
 100.web-odc-table-objects=Table objects
 200.web-odc-view-objects=View objects
 300.web-odc-function-objects=Function objects
