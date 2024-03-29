@@ -19,6 +19,7 @@
 700.database-change-management=变更风险管控
 100.user-permission-and-management=用户权限管理
 800.data-Lifecycle-management=数据生命周期管理
+300.partition-scheme-management=分区计划管理
 900.data-security-and-compliance=数据脱敏与审计
 1000.system-integration=系统集成
 400.bastion-host-integration-guide=堡垒机集成
