@@ -21,6 +21,8 @@
 800.data-Lifecycle-management=数据生命周期管理
 300.partition-scheme-management=分区计划管理
 900.data-security-and-compliance=数据脱敏与审计
+950.notification-management=消息通知管理
+300.manage-notification-channel=管理推送通道
 1000.system-integration=系统集成
 400.bastion-host-integration-guide=堡垒机集成
 1100.deployment-guide=部署指南
