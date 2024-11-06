@@ -28,6 +28,15 @@
 1200.upgrade-guide=Upgrade Guide
 1300.troubleshooting=Troubleshooting
   200.collect-message=Collect Message
+  300.common-troubleshooting=Common Troubleshooting
+     100.deployment-upgrade=Deployment Upgrade
+     200.database-connection=Database Connection
+     300.sql-execution=SQL Execution
+     400.pl-object=PL Object
+     500.import-and-export=Import and Export
+     600.client-odc-problems=Client ODC Problems
+     700.front-page-exception=Front Page Exception
+     800.account-password-problem=Account Password Problem
   400.faq=FAQ
 1400.odc-rn=Release Note
   90.odc-rn-4.3=V4.3
