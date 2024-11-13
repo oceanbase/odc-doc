@@ -22,11 +22,7 @@
 900.data-security-and-compliance=Data Desensitization and Auditing
 1000.system-integration=System Integration
 1100.deployment-guide=Deployment Guide
-300.deploy-a-single-odc-node=Deploy a single ODC node
-400.deploy-the-ha-odc=Deploy ODC in high availability mode
 1200.upgrade-guide=Upgrade Guide
-300.upgrade-single-node-odc=Upgrade single-node ODC
-400.upgrade-high-availability-odc=Upgrade high-availability
 1300.troubleshooting=Troubleshooting
 200.collect-message=Collect Message
 300.common-troubleshooting=Common Troubleshooting

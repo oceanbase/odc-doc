@@ -23,8 +23,6 @@
 1000.system-integration=系统集成
 400.bastion-host-integration-guide=堡垒机集成
 1100.deployment-guide=部署指南
-300.deploy-a-single-odc-node=部署单节点 ODC
-400.deploy-the-ha-odc=部署高可用 ODC
 1200.upgrade-guide=升级指南
 1300.troubleshooting=故障排查
 200.collect-message=信息收集
