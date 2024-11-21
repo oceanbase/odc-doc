@@ -29,14 +29,6 @@
 1200.upgrade-guide=升级指南
 1300.troubleshooting=故障排查
 200.collect-message=信息收集
-100.deployment-upgrade=部署升级
-200.database-connection=数据库连接
-300.sql-execution=SQL 执行
-400.pl-object=PL 对象
-500.import-and-export=导入和导出
-600.client-odc-problems=桌面版问题
-700.front-page-exception=前端页面异常
-800.account-password-problem=账号密码问题
 400.faq=常见问题
 1400.rn=版本发布记录
 90.odc-rn-4.3=V4.3
