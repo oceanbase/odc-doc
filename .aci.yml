@@ -1,0 +1,36 @@
+
+stages:
+  - build
+  
+beforeScript:
+  - |
+    export PATH=$PWD/node_modules/.bin:/root/.cli:$PATH
+    echo $PATH
+    tnpm -v
+    
+build:
+  stage: build
+  aciTags: DOCKER
+  agent:
+    docker:
+      image: reg.docker.alibaba-inc.com/odc-front/odc-e2e:node14
+      resourceRequirements:
+        cpu: 4
+        memory: 12
+        ephemeral-storage: 30
+  script:
+    - |
+      export PATH=$PWD/node_modules/.bin:/root/.cli:$PATH
+      node -e "console.log('%j, %j', process.versions, process.execPath)"
+      tnpm i @alipay/ob-yuque2book-front@2 -g
+      ob-md2book -p ./ -n "${ACI_VAR_docName}" -o ./ -r
+      tar -zcvf output.tar.gz output
+      echo '<html><body><a target="__blank" href="http://11.124.9.83:19898/obdoc/${ACI_PROJECT_NAME}/${ACI_COMMIT_REF_NAME}/index.html">open doc</a></body></html>' > ./index.html
+  publisher:
+    archiveArtifacts:
+      artifacts: 'output.tar.gz, index.html'
+      allowEmptyArchive: true
+    html:
+      index: index.html
+      displayName: '在线预览'
+ 
